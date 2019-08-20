@@ -1,8 +1,0 @@
-/doc
-/docs
-.Rhistory
-.RData
-.Rproj.user
-src/*.o
-src/*.so
-src/*.dll

@@ -26,3 +26,4 @@ Suggests:
     rmarkdown, 
     pkgdown
 LinkingTo: Rcpp
+RoxygenNote: 6.1.1

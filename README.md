@@ -7,6 +7,7 @@
 
 [![Build
 Status](https://travis-ci.org/ha0ye/GPEDM.svg?branch=master)](https://travis-ci.org/ha0ye/GPEDM)
+[![codecov](https://codecov.io/gh/ha0ye/GPEDM/branch/master/graph/badge.svg)](https://codecov.io/gh/ha0ye/GPEDM)
 <!-- badges: end -->
 
 ## Overview

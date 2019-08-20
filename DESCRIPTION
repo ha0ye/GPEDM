@@ -1,12 +1,28 @@
 Package: GPEDM
-Type: Package
-Title: What the Package Does in One 'Title Case' Line
-Version: 1.0
-Date: 2019-08-19
-Author: Your Name
-Maintainer: Your Name <your@email.com>
-Description: One paragraph description of what the package does as
-       one or more full sentences.
-License: GPL (>= 2)
-Imports: Rcpp (>= 1.0.2)
+Title: Gaussian Process regression for Empirical Dynamic Modeling
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = "Hao",
+           family = "Ye",
+           role = c("aut", "cre"),
+           email = "hao.ye@weecology.org",
+           comment = c(ORCID = "0000-0002-8630-1458")), 
+    person(given = "Steve",
+           family = "Munch",
+           role = c("aut"),
+           comment = c(ORCID = "0000-0001-7471-5429")))
+Description: The goal of GPEDM is to an accessible package for applying Gaussian Process regression for Empirical Dynamic Modeling. The models are mainly intended to modeling time series, and using Gaussian Processes to perform the tricky step of inferring a reasonable model of the underlying dynamics given the observed data.
+License: MIT + file LICENSE
+URL: https://ha0ye.github.io/GPEDM, https://github.com/ha0ye/GPEDM
+BugReports: https://github.com/ha0ye/GPEDM/issues
+NeedsCompilation: yes
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    Rcpp
+Suggests: 
+    testthat, 
+    knitr, 
+    rmarkdown, 
+    pkgdown
 LinkingTo: Rcpp

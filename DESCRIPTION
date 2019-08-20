@@ -24,6 +24,7 @@ Suggests:
     testthat, 
     knitr, 
     rmarkdown, 
-    pkgdown
+    pkgdown, 
+    covr
 LinkingTo: Rcpp
 RoxygenNote: 6.1.1
